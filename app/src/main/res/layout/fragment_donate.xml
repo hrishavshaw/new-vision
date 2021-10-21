@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/images1"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONATE WHATEVER YOU WANT"
+        android:textStyle="bold"
+        android:textColor="#E01313"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:id="@+id/t1"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:layout_marginTop="20dp"
+        android:text="CASH"
+        android:textSize="20dp"
+        android:textColor="#F30656"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b1"
+        android:text="CLOTHES"
+        android:textSize="20dp"
+        android:textColor="#6E227A"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b2"
+        android:text="FOOD"
+        android:textSize="20dp"
+        android:textColor="#03243F"/>
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b3"
+        android:text="FREE EDUCATION"
+        android:textSize="20dp"/>
+
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

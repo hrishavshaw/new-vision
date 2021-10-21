@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#696565"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password Profile"
+       android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Email for verification:"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/oldemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter email..."
+        android:textSize="25dp"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the New Password"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/newpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter password..."
+        android:textSize="25dp"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#8BC34A"
+        android:text="Update Password"
+        android:textSize="25dp"
+        android:id="@+id/bt_pass"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/h1"
+                android:text="WELCOME TO OUR FAMILY"
+                android:textAlignment="center"
+                android:textColor="#EC0909"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vision"
+                android:textColor="#EC0909"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:layout_below="@id/h1"
+                android:layout_marginTop="50dp"
+                android:id="@+id/t1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t1"
+                android:text="Our vision is to uplift the standard and condition of life for orphans and vulnerable children and to empower young people to have a meaningful life and a better tomorrow."
+                android:textSize="20dp"
+                android:textColor="#020A36"
+                android:textStyle="bold"
+                android:id="@+id/t2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t2"
+                android:layout_marginTop="20dp"
+                android:text="Mission"
+                android:textColor="#EC0909"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:id="@+id/t3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t3"
+                android:text="Our mission is to work with partners and volunteers to improve the lives of Orphans. Vulnerable children and young people through a right-based approach. "
+                android:textSize="20dp"
+                android:textColor="#020A36"
+                android:textStyle="bold"
+                android:id="@+id/t4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t4"
+                android:layout_marginTop="20dp"
+                android:text="Aims and Objectives"
+                android:textColor="#EC0909"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:id="@+id/t5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t5"
+                android:text="* The aim of the organization is to prevent children from roaming on the streets, to assist children who are orphaned due to HIV/AIDS, to achieve their goal of education and sustainable family life.   "
+                android:textSize="20dp"
+                android:textColor="#020A36"
+                android:textStyle="bold"
+                android:id="@+id/t6"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t6"
+                android:text="* To uplift the quality of life of Orphans and Vulnerable Children(OVC) by creating a home environment. "
+                android:textSize="20dp"
+                android:textColor="#020A36"
+                android:textStyle="bold"
+                android:id="@+id/t7"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t7"
+                android:text="* To empower OVC's of school going age by providing nutrition and education and skill training. "
+                android:textSize="20dp"
+                android:textColor="#020A36"
+                android:textStyle="bold"
+                android:id="@+id/t8"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t8"
+                android:text="* To protect and promote the well being of OVC by ensuring that OVC's rights and that of caregiver and protected, respect and full filled "
+                android:textSize="20dp"
+                android:textColor="#020A36"
+                android:textStyle="bold"
+                android:id="@+id/t9"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

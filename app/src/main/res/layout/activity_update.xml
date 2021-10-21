@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/pic5">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="UPDATED PROFILE..."
+        android:textColor="#BE2B2B"
+        android:layout_marginTop="10dp"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tb11"
+        android:stretchColumns="0"
+        android:layout_marginTop="100dp"
+
+       >
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tableRow1"
+            android:background="#FFEB3B"
+
+            >
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/textView1"
+                android:text="User ID(*)"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/up_id"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tableRow2"
+
+            >
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/textView2"
+                android:text="Name(*)"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/up_name"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tableRow3"
+            android:background="#FFEB3B"
+            >
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/textView3"
+                android:text="Address"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/up_add"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tableRow4"
+
+            >
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/textView4"
+                android:text="Occupation"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/up_zip"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tableRow5"
+            android:background="#FFEB3B"
+            >
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/textView5"
+                android:text="Mobile No. "
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/up_mob"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tableRow6"
+
+            >
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/textView6"
+                android:text="Email.."
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/up_email"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tableRow8"
+            android:background="#FFEB3B"
+
+            >
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/textView8"
+                android:text="Gender"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/up_gender"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tableRow9"
+
+            >
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/textView9"
+                android:text="Username(*)"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/up_username"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tableRow10"
+            android:background="#FFEB3B"
+            >
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/textView10"
+                android:text="Password(*)"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/up_password"
+                android:textSize="20dp"/>
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="OK"
+        android:textSize="30dp"
+        android:id="@+id/bt_Ok"
+        />
+
+
+</RelativeLayout>

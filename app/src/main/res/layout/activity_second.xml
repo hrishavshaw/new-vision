@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCF3CF"
+    >
+
+    <ImageView
+        android:id="@+id/selectedImage"
+        android:layout_width="320dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+
+        android:focusable="auto"
+        android:focusableInTouchMode="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/image3" />
+
+</LinearLayout>
